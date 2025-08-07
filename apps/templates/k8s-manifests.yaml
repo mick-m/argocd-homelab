@@ -11,7 +11,7 @@ spec:
   source:
     path: yamls/
     repoURL: {{ .Values.spec.source.repoURL }}
-    targetRevision: HEAD
+    targetRevision: {{ .Values.spec.source.targetRevision }}
     directory:
       recurse: true
   syncPolicy:

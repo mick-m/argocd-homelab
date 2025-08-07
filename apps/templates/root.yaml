@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: apps/
-    repoURL: https://github.com/MicahBird/argocd-setup-demo.git
+    repoURL: https://github.com/mick-m/argocd-homelab.git
     targetRevision: HEAD
   syncPolicy:
     automated:

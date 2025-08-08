@@ -1,3 +1,5 @@
+# App of apps
+# This ArgoCD root app  will automatically deploy any manifests present in the apps/templates/ folder
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
